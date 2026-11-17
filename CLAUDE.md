@@ -45,17 +45,7 @@ These instructions must be followed throughout development.
 
 The project owner is a beginner developer.
 
-Therefore:
 
-- Explain technical concepts in simple language.
-- Provide exact Windows commands.
-- Specify the exact file path for every new file.
-- Provide complete copy-paste-ready code.
-- Avoid instructions such as "modify the relevant function" without identifying it.
-- Explain where code belongs.
-- Explain how to run and test every feature.
-- Provide troubleshooting instructions.
-- Never assume the owner already understands advanced development concepts.
 
 ### 2.3 No incomplete implementations
 
