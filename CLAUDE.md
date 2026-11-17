@@ -195,7 +195,7 @@ Use a monorepo architecture.
 
 Recommended root structure:
 
-discord-platform/
+GuMMy/
 │
 ├── apps/
 │   ├── bot/
