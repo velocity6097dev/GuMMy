@@ -1,0 +1,22 @@
+{
+  "name": "gummy-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Discord bot platform monorepo (bot, API, web, dashboard) - name/branding not final",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev:bot": "pnpm --filter @gummy/bot run dev",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck",
+    "migrate": "pnpm --filter @gummy/database run migrate"
+  },
+  "dependencies": {
+  "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

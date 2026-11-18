@@ -1,2 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.next/
+out/
+
+# Environment
 .env
-creds.txt
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local DB files
+*.db
+*.sqlite
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+coverage/
+.turbo/

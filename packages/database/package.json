@@ -1,0 +1,23 @@
+{
+  "name": "@gummy/database",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b",
+    "lint": "echo \"(lint not configured yet)\"",
+    "migrate": "tsx src/migrate.ts"
+  },
+  "dependencies": {
+    "@gummy/config": "workspace:*",
+    "@libsql/client": "^0.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.2"
+  }
+}
